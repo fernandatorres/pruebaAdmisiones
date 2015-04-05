@@ -20,7 +20,7 @@ class negocios
         $this->nombres=$nombres;
         $this->edad=$edad;
         $this->arrastra=$arrastra;
-        $this->objetoDatos=new datos('mysql:host=localhost;dbname baseproyecto','root','');
+        $this->objetoDatos=new datos('mysql:host=localhost; dbname baseproyecto','root','');
     }
     public function insertar()
     {
